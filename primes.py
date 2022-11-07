@@ -34,14 +34,4 @@ class Primes:
                 if n % i == 0: return False
                 i += 2
             return True
-    
-'''
-p = Primes(10,30)
-print(p)
-print(list(p))
-print(len(p))
-print(type(p))
-for i in p:
-    print(i)
-#print(Primes().isprime(7)
-'''
+        
